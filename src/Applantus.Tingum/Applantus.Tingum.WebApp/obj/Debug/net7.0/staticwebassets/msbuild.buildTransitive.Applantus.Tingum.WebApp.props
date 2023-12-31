@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Applantus.Tingum.WebApp.props" />
-</Project>
