@@ -1,0 +1,1117 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Applantus.Tingum.WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Applantus.Tingum.WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\about-us.html",
+      "PackagePath": "staticwebassets\\about-us.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\author-details.html",
+      "PackagePath": "staticwebassets\\author-details.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\author-listing.html",
+      "PackagePath": "staticwebassets\\author-listing.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\contact-us.html",
+      "PackagePath": "staticwebassets\\contact-us.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\contact-us2.html",
+      "PackagePath": "staticwebassets\\contact-us2.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\main-css-backup.css",
+      "PackagePath": "staticwebassets\\css\\main-css-backup.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\presets\\preset1.css",
+      "PackagePath": "staticwebassets\\css\\presets\\preset1.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\presets\\preset2.css",
+      "PackagePath": "staticwebassets\\css\\presets\\preset2.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\presets\\preset3.css",
+      "PackagePath": "staticwebassets\\css\\presets\\preset3.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\presets\\preset4.css",
+      "PackagePath": "staticwebassets\\css\\presets\\preset4.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\presets\\preset5.css",
+      "PackagePath": "staticwebassets\\css\\presets\\preset5.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\presets\\preset6.css",
+      "PackagePath": "staticwebassets\\css\\presets\\preset6.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\css\\subscribe-better.css",
+      "PackagePath": "staticwebassets\\css\\subscribe-better.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\def-css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\def-css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\def-css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\def-css\\site.css",
+      "PackagePath": "staticwebassets\\def-css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\league1.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\league1.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\league2.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\league2.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\slider1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\stock.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\stock.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\team1.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\team1.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\team2.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\team2.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb1.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb1.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb2.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb2.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb3.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb3.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb4.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb4.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb5.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb5.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb6.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb6.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb7.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb7.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb8.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb8.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\gallery\\thumb9.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb9.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\ico\\apple-touch-icon-114-precomposed.png",
+      "PackagePath": "staticwebassets\\images\\ico\\apple-touch-icon-114-precomposed.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\ico\\apple-touch-icon-144-precomposed.png",
+      "PackagePath": "staticwebassets\\images\\ico\\apple-touch-icon-144-precomposed.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\ico\\apple-touch-icon-57-precomposed.png",
+      "PackagePath": "staticwebassets\\images\\ico\\apple-touch-icon-57-precomposed.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\ico\\apple-touch-icon-72-precomposed.png",
+      "PackagePath": "staticwebassets\\images\\ico\\apple-touch-icon-72-precomposed.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\ico\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\ico\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\about-us.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\about-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg3.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg4.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg5.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg6.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg7.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg8.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author-bg9.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\author-bg9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author.png",
+      "PackagePath": "staticwebassets\\images\\others\\author.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author1.png",
+      "PackagePath": "staticwebassets\\images\\others\\author1.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author10.png",
+      "PackagePath": "staticwebassets\\images\\others\\author10.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author11.png",
+      "PackagePath": "staticwebassets\\images\\others\\author11.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author12.png",
+      "PackagePath": "staticwebassets\\images\\others\\author12.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author2.png",
+      "PackagePath": "staticwebassets\\images\\others\\author2.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author3.png",
+      "PackagePath": "staticwebassets\\images\\others\\author3.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author4.png",
+      "PackagePath": "staticwebassets\\images\\others\\author4.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author5.png",
+      "PackagePath": "staticwebassets\\images\\others\\author5.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author6.png",
+      "PackagePath": "staticwebassets\\images\\others\\author6.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author7.png",
+      "PackagePath": "staticwebassets\\images\\others\\author7.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author8.png",
+      "PackagePath": "staticwebassets\\images\\others\\author8.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\author9.png",
+      "PackagePath": "staticwebassets\\images\\others\\author9.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\close-button.png",
+      "PackagePath": "staticwebassets\\images\\others\\close-button.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\error.png",
+      "PackagePath": "staticwebassets\\images\\others\\error.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\icon-message.png",
+      "PackagePath": "staticwebassets\\images\\others\\icon-message.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\league-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\league-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member1.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member10.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member11.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member2.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member3.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member4.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member5.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member6.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member7.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member8.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\member9.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\member9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\password-icon.png",
+      "PackagePath": "staticwebassets\\images\\others\\password-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\s1.png",
+      "PackagePath": "staticwebassets\\images\\others\\s1.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\s2.png",
+      "PackagePath": "staticwebassets\\images\\others\\s2.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\s3.png",
+      "PackagePath": "staticwebassets\\images\\others\\s3.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\s4.png",
+      "PackagePath": "staticwebassets\\images\\others\\s4.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\sports1.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\sports1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\stock-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\stock-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\t1.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\t1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\others\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\user-icon.png",
+      "PackagePath": "staticwebassets\\images\\others\\user-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\weather.png",
+      "PackagePath": "staticwebassets\\images\\others\\weather.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\weather1.png",
+      "PackagePath": "staticwebassets\\images\\others\\weather1.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\others\\weather2.png",
+      "PackagePath": "staticwebassets\\images\\others\\weather2.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\add\\add1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\add\\add1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\add\\add2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\add\\add2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\add\\add3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\add\\add3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\add\\add4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\add\\add4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\add\\add5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\add\\add5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\add\\add6.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\add\\add6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\business\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\business\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\flicker\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\flicker\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\flicker\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\flicker\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\flicker\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\flicker\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\flicker\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\flicker\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\flicker\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\flicker\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\flicker\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\flicker\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\flicker\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\flicker\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\flicker\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\flicker\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\google-add.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\google-add.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\health\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\health\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\health\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\health\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\health\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\health\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\health\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\health\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\health\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\health\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\inner1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\inner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\inner2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\inner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\inner3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\inner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\life1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\life1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\life2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\life2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\life3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\life3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\life4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\life4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\lifestyle\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\lifestyle\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\rising\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\rising\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\side1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\side1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\slider\\e1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\slider\\e1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\sports\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\sports\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\t1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\t1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\t2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\t2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\t3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\t3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\technology\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\technology\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\technology\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\technology\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\technology\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\technology\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\technology\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\technology\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\technology\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\technology\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\technology\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\technology\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\technology\\t2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\technology\\t2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\technology\\t3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\technology\\t3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\w1.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\w1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\w2.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\w2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\post\\w3.jpg",
+      "PackagePath": "staticwebassets\\images\\post\\w3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset1\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset1\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset1\\logo.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset1\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset2\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset2\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset2\\logo.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset2\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset3\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset3\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset3\\logo.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset3\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset4\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset4\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset4\\logo.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset4\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset5\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset5\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset5\\logo.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset5\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset6\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset6\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\images\\presets\\preset6\\logo.png",
+      "PackagePath": "staticwebassets\\images\\presets\\preset6\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\index1.html",
+      "PackagePath": "staticwebassets\\index1.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\index2.html",
+      "PackagePath": "staticwebassets\\index2.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\index3.html",
+      "PackagePath": "staticwebassets\\index3.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\index4.html",
+      "PackagePath": "staticwebassets\\index4.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\index5.html",
+      "PackagePath": "staticwebassets\\index5.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\jquery.easy-ticker.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easy-ticker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\jquery.sticky-kit.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky-kit.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\jquery.subscribe-better.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.subscribe-better.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\respond.min.js",
+      "PackagePath": "staticwebassets\\js\\respond.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\js\\theia-sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\js\\theia-sticky-sidebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\listing-life-style.html",
+      "PackagePath": "staticwebassets\\listing-life-style.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\listing-sports.html",
+      "PackagePath": "staticwebassets\\listing-sports.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\listing.html",
+      "PackagePath": "staticwebassets\\listing.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\news-details.html",
+      "PackagePath": "staticwebassets\\news-details.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\signin.html",
+      "PackagePath": "staticwebassets\\signin.html"
+    },
+    {
+      "Id": "C:\\Users\\benkimz\\Desktop\\projects\\news\\article-website\\src\\Applantus.Tingum\\Applantus.Tingum.WebApp\\wwwroot\\signup.html",
+      "PackagePath": "staticwebassets\\signup.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Applantus.Tingum.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Applantus.Tingum.WebApp.props",
+      "PackagePath": "build\\Applantus.Tingum.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Applantus.Tingum.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\Applantus.Tingum.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Applantus.Tingum.WebApp.props",
+      "PackagePath": "buildTransitive\\Applantus.Tingum.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
