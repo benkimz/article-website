@@ -1,9 +1,26 @@
 ﻿@page "/"
+@page "/home"
+@page "/landing"
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="container">
 
-Welcome to your new app.
+    <Applantus.Tingum.WebApp.Pages.IndexPageKit.SpotlightContentKit.SpotlightContent />
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    <div class="section add inner-add">
+        <a href="#"><img class="img-fluid" src="images/post/add/add2.jpg" alt="Image" /></a>
+    </div>
+
+    <Applantus.Tingum.WebApp.Pages.IndexPageKit.LatestDispatchKit.LatestDispatch />
+
+    <Applantus.Tingum.WebApp.Pages.IndexPageKit.ContentDigestKit.ContentDigest />
+</div>
+
+<Applantus.Tingum.WebApp.Pages.IndexPageKit.XFeed />
+
+<Applantus.Tingum.WebApp.Pages.IndexPageKit.FooterWidget />
+
+@* 
+    * temporarily stop the overlay
+<Applantus.Tingum.WebApp.Pages.IndexPageKit.SubscribeOverlay /> *@
