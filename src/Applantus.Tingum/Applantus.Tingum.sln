@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applantus.Tingum.WebApp", "Applantus.Tingum.WebApp\Applantus.Tingum.WebApp.csproj", "{F2AC078F-E10A-4C7D-B829-58231CC06637}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applantus.Tingum.Core", "Applantus.Tingum.Core\Applantus.Tingum.Core.csproj", "{B272AB7E-B33D-4B92-A519-E3514A06B9CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F2AC078F-E10A-4C7D-B829-58231CC06637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2AC078F-E10A-4C7D-B829-58231CC06637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2AC078F-E10A-4C7D-B829-58231CC06637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B272AB7E-B33D-4B92-A519-E3514A06B9CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B272AB7E-B33D-4B92-A519-E3514A06B9CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B272AB7E-B33D-4B92-A519-E3514A06B9CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B272AB7E-B33D-4B92-A519-E3514A06B9CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
