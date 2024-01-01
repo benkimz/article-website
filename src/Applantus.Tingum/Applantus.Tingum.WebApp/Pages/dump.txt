@@ -1,0 +1,14 @@
+﻿mention: {
+            feeds: [
+                {
+    marker: '&commat;',
+                feed: [
+                '&commat;apple', '&commat;bears', '&commat;brownie', '&commat;cake', '&commat;cake', '&commat;candy', '&commat;canes', '&commat;chocolate', '&commat;cookie', '&commat;cotton', '&commat;cream',
+                '&commat;cupcake', '&commat;danish', '&commat;donut', '&commat;dragée', '&commat;fruitcake', '&commat;gingerbread', '&commat;gummi', '&commat;ice', '&commat;jelly-o',
+                '&commat;liquorice', '&commat;macaroon', '&commat;marzipan', '&commat;oat', '&commat;pie', '&commat;plum', '&commat;pudding', '&commat;sesame', '&commat;snaps', '&commat;soufflé',
+                '&commat;sugar', '&commat;sweet', '&commat;topping', '&commat;wafer'
+                ],
+                minimumCharacters: 1
+                            }
+                        ]
+    },
