@@ -1,8 +1,16 @@
+using Applantus.Tingum.Infrastruture.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+
+// ~ benkimz: add database and custom services
+builder.Services.AddDbContext<SystemDbContext>(options => {
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DBString"), b => b.MigrationsAssembly("Applantus.Tingum.WebApp"));
+});
 
 var app = builder.Build();
 
