@@ -9,10 +9,10 @@
 <button onclick="@(() => AddU())">Test Method</button>
 
 @code{
-    private async void AddU(){
+    private void AddU(){
         Console.WriteLine("Button");
-        var u = await repo.AddUser();
-        Console.WriteLine(u);
+        // var u = await repo.AddUser();
+        // Console.WriteLine(u);
     }
 }
 

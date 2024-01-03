@@ -1,5 +1,6 @@
 using Applantus.Tingum.Core.CoreCanvas.AppUsers;
 using Applantus.Tingum.Core.Interfaces;
+using Applantus.Tingum.Core.Interfaces.ICoreCanvas.IAppUsers;
 using Applantus.Tingum.Infrastruture.Data;
 using Applantus.Tingum.Infrastruture.Data.Repositories;
 using Applantus.Tingum.Infrastruture.Data.Repositories.AppUsers;

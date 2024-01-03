@@ -16,24 +16,29 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
         _dbSet = _context.Set<T>();
     }
 
-    public Task<T?> AlterAsync(T entity)
+    public async Task<T?> AlterAsync(T entity)
     {
-        throw new NotImplementedException();
+        entity.DateModified = DateTime.UtcNow;
+        var results = _dbSet.Update(entity);
+        await _context.SaveChangesAsync();
+        return results.Entity; 
     }
 
-    public Task<List<T>?> LoadAllAsync()
+    public async Task<List<T>?> LoadAllAsync()
     {
-        throw new NotImplementedException();
+        return await _dbSet.ToListAsync();
     }
 
-    public Task<T?> LoadAsync(Guid id)
+    public async Task<T?> LoadAsync(Guid id)
     {
-        throw new NotImplementedException();
+        return await _dbSet.FindAsync(id); 
     }
 
-    public Task<T?> RemoveAsync(T entity)
+    public async Task<T?> RemoveAsync(T entity)
     {
-        throw new NotImplementedException();
+        var results = _dbSet.Remove(entity); 
+        await _context.SaveChangesAsync(); 
+        return results.Entity; 
     }
 
     public async Task<T?> SaveAsync(T entity)
