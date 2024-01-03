@@ -1,15 +1,17 @@
-﻿namespace Applantus.Tingum.Core.Interfaces;
+﻿using Applantus.Tingum.Core.BaseAggregates;
 
-public interface IGenericRepository 
+namespace Applantus.Tingum.Core.Interfaces;
+
+public interface IGenericRepository<T> where T : IEntity 
 {
     // crud: create, read, update, delete
-    Task<T?> SaveAsync<T>(T entity); 
+    Task<T?> SaveAsync(T entity); 
 
-    Task<T?> LoadAsync<T>(Guid id); 
+    Task<T?> LoadAsync(Guid id); 
 
-    Task<List<T>?> LoadAllAsync<T>(); 
+    Task<List<T>?> LoadAllAsync(); 
 
-    Task<T?> AlterAsync<T>(T entity); 
+    Task<T?> AlterAsync(T entity); 
 
-    Task<T?> RemoveAsync<T>(T entity);
+    Task<T?> RemoveAsync(T entity);
 }

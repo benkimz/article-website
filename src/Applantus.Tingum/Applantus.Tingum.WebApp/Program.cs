@@ -1,4 +1,8 @@
+using Applantus.Tingum.Core.CoreCanvas.AppUsers;
+using Applantus.Tingum.Core.Interfaces;
 using Applantus.Tingum.Infrastruture.Data;
+using Applantus.Tingum.Infrastruture.Data.Repositories;
+using Applantus.Tingum.Infrastruture.Data.Repositories.AppUsers;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +15,11 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddDbContext<SystemDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DBString"), b => b.MigrationsAssembly("Applantus.Tingum.WebApp"));
 });
+
+// ~ users repository
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddTransient<IAppUsersRepository, AppUsersRepository>();
+builder.Services.AddTransient<AppUsersRepository>();
 
 var app = builder.Build();
 

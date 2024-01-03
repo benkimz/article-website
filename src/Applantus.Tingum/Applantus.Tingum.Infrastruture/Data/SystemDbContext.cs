@@ -1,4 +1,5 @@
 ﻿using Applantus.Tingum.Core.CoreCanvas.AppUsers;
+using Applantus.Tingum.Core.CoreCanvas.AppUsers.Roles;
 using Applantus.Tingum.Core.CoreCanvas.Articles;
 using Applantus.Tingum.Core.CoreCanvas.Articles.Tags;
 using Microsoft.EntityFrameworkCore;
@@ -35,5 +36,10 @@ public class SystemDbContext : DbContext
             .HasMany(a => a.Tags)
             .WithMany()
             .UsingEntity(j => j.ToTable("ArticleTagMap"));
+
+        modelBuilder.Entity<UserRole>()
+            .HasData(
+            new UserRole { Id = Guid.NewGuid(), Name = "Standard", Description = "Default role for all onboarding users.", DateCreated = DateTime.UtcNow, DateModified = DateTime.UtcNow}, 
+            new UserRole { Id = Guid.NewGuid(), Name = "Admin", Description = "Role with highest privileges.", DateCreated = DateTime.UtcNow, DateModified = DateTime.UtcNow});
     }
 }

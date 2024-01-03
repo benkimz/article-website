@@ -1,5 +1,22 @@
 ﻿@page "/test"
 
+@using Applantus.Tingum.Infrastruture.Data.Repositories.AppUsers;
+
+@inject AppUsersRepository repo
+
+<h1>My Test Page</h1>
+
+<button onclick="@(() => AddU())">Test Method</button>
+
+@code{
+    private async void AddU(){
+        Console.WriteLine("Button");
+        var u = await repo.AddUser();
+        Console.WriteLine(u);
+    }
+}
+
+@* 
 <style>
     #container {
         width: 1000px!important;
@@ -147,4 +164,4 @@
         'PasteFromOfficeEnhanced'
     ]
     });
-</script>
+</script> *@

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Applantus.Tingum.WebApp.Migrations
 {
     [DbContext(typeof(SystemDbContext))]
-    [Migration("20240103071730_MigrationAlpha")]
+    [Migration("20240103144419_MigrationAlpha")]
     partial class MigrationAlpha
     {
         /// <inheritdoc />
@@ -31,9 +31,6 @@ namespace Applantus.Tingum.WebApp.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("AppUserId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Biography")
                         .HasMaxLength(1024)
@@ -74,8 +71,8 @@ namespace Applantus.Tingum.WebApp.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<int>("Role")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("RoleId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("UserName")
                         .IsRequired()
@@ -87,10 +84,65 @@ namespace Applantus.Tingum.WebApp.Migrations
                     b.HasIndex("Email")
                         .IsUnique();
 
+                    b.HasIndex("RoleId");
+
                     b.HasIndex("UserName")
                         .IsUnique();
 
                     b.ToTable("AppUsers", "tingum");
+                });
+
+            modelBuilder.Entity("Applantus.Tingum.Core.CoreCanvas.AppUsers.Roles.UserRole", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateModified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AppUserRoles", "tingum");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("97dc6924-e824-417b-9631-27637250d0f6"),
+                            DateCreated = new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3399),
+                            DateModified = new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3401),
+                            Description = "Default role for all onboarding users.",
+                            IsActive = false,
+                            IsDeleted = false,
+                            Name = "Standard"
+                        },
+                        new
+                        {
+                            Id = new Guid("05e1a51c-0344-4ec3-a7e9-6079d00e106f"),
+                            DateCreated = new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3411),
+                            DateModified = new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3412),
+                            Description = "Role with highest privileges.",
+                            IsActive = false,
+                            IsDeleted = false,
+                            Name = "Admin"
+                        });
                 });
 
             modelBuilder.Entity("Applantus.Tingum.Core.CoreCanvas.Articles.Article", b =>
@@ -98,9 +150,6 @@ namespace Applantus.Tingum.WebApp.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("ArticleId")
-                        .HasColumnType("int");
 
                     b.Property<Guid>("AuthorId")
                         .HasColumnType("uniqueidentifier");
@@ -170,9 +219,6 @@ namespace Applantus.Tingum.WebApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("ArticleCategoryId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
@@ -205,9 +251,6 @@ namespace Applantus.Tingum.WebApp.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("ArticleCommentId")
-                        .HasColumnType("int");
 
                     b.Property<Guid?>("ArticleId")
                         .HasColumnType("uniqueidentifier");
@@ -255,9 +298,6 @@ namespace Applantus.Tingum.WebApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("ArticleTagId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
@@ -297,6 +337,15 @@ namespace Applantus.Tingum.WebApp.Migrations
                     b.HasIndex("TagsId");
 
                     b.ToTable("ArticleTagMap", "tingum");
+                });
+
+            modelBuilder.Entity("Applantus.Tingum.Core.CoreCanvas.AppUsers.AppUser", b =>
+                {
+                    b.HasOne("Applantus.Tingum.Core.CoreCanvas.AppUsers.Roles.UserRole", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId");
+
+                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("Applantus.Tingum.Core.CoreCanvas.Articles.Article", b =>

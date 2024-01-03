@@ -12,22 +12,20 @@ namespace Applantus.Tingum.Core.CoreCanvas.Articles;
 [Table("Articles")]
 public class Article : BaseEntity
 {
-    public int ArticleId { get; set; } 
-
     [MaxLength(255)]
-    public string? Title { get; set; } 
+    public string? Title { get; set; } = string.Empty; 
 
     [MaxLength(512)]
-    public override string Description { get; set; } = string.Empty; 
+    public override string Description { get; set; } = string.Empty;
 
     [MaxLength(255)]
-    public string? Thumbnail { get; set; } 
+    public string? Thumbnail { get; set; } = string.Empty; 
 
     public ArticleCategory? Category { get; set; } 
     
-    public virtual ICollection<ArticleTag> Tags { get; set; } = new List<ArticleTag>(); 
+    public virtual ICollection<ArticleTag> Tags { get; set; } = new List<ArticleTag>();
 
-    public string? MarkupData { get; set; } 
+    public string? MarkupData { get; set; } = string.Empty; 
 
     public int ViewsCount { get; set; } 
 

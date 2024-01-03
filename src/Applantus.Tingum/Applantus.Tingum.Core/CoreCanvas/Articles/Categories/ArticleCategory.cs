@@ -7,8 +7,6 @@ namespace Applantus.Tingum.Core.CoreCanvas.Articles.Categories;
 [Table("ArticleCategories")]
 public class ArticleCategory : BaseEntity
 {
-    public int ArticleCategoryId { get; set; }
-
     [Required]
     [MaxLength(255)]
     public override string Name { get; set; } = string.Empty;

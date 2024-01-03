@@ -14,28 +14,20 @@ GO
 IF SCHEMA_ID(N'tingum') IS NULL EXEC(N'CREATE SCHEMA [tingum];');
 GO
 
-CREATE TABLE [tingum].[AppUsers] (
+CREATE TABLE [tingum].[AppUserRoles] (
     [Id] uniqueidentifier NOT NULL,
-    [AppUserId] int NOT NULL,
-    [Name] nvarchar(255) NOT NULL,
-    [UserName] nvarchar(255) NOT NULL,
-    [DisplayPhoto] nvarchar(255) NULL,
-    [Email] nvarchar(255) NOT NULL,
-    [Password] nvarchar(255) NOT NULL,
-    [Biography] nvarchar(1024) NULL,
-    [Role] int NOT NULL,
     [DateCreated] datetime2 NOT NULL,
     [DateModified] datetime2 NOT NULL,
     [IsActive] bit NOT NULL,
     [IsDeleted] bit NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
     [Description] nvarchar(max) NOT NULL,
-    CONSTRAINT [PK_AppUsers] PRIMARY KEY ([Id])
+    CONSTRAINT [PK_AppUserRoles] PRIMARY KEY ([Id])
 );
 GO
 
 CREATE TABLE [tingum].[ArticleCategories] (
     [Id] uniqueidentifier NOT NULL,
-    [ArticleCategoryId] int NOT NULL,
     [Name] nvarchar(255) NOT NULL,
     [Description] nvarchar(720) NOT NULL,
     [DateCreated] datetime2 NOT NULL,
@@ -48,7 +40,6 @@ GO
 
 CREATE TABLE [tingum].[ArticleTags] (
     [Id] uniqueidentifier NOT NULL,
-    [ArticleTagId] int NOT NULL,
     [Name] nvarchar(255) NOT NULL,
     [DateCreated] datetime2 NOT NULL,
     [DateModified] datetime2 NOT NULL,
@@ -59,9 +50,27 @@ CREATE TABLE [tingum].[ArticleTags] (
 );
 GO
 
+CREATE TABLE [tingum].[AppUsers] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(255) NOT NULL,
+    [UserName] nvarchar(255) NOT NULL,
+    [DisplayPhoto] nvarchar(255) NULL,
+    [Email] nvarchar(255) NOT NULL,
+    [Password] nvarchar(255) NOT NULL,
+    [Biography] nvarchar(1024) NULL,
+    [RoleId] uniqueidentifier NULL,
+    [DateCreated] datetime2 NOT NULL,
+    [DateModified] datetime2 NOT NULL,
+    [IsActive] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_AppUsers] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AppUsers_AppUserRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [tingum].[AppUserRoles] ([Id])
+);
+GO
+
 CREATE TABLE [tingum].[Articles] (
     [Id] uniqueidentifier NOT NULL,
-    [ArticleId] int NOT NULL,
     [Title] nvarchar(255) NULL,
     [Description] nvarchar(512) NOT NULL,
     [Thumbnail] nvarchar(255) NULL,
@@ -86,7 +95,6 @@ GO
 
 CREATE TABLE [tingum].[ArticleComments] (
     [Id] uniqueidentifier NOT NULL,
-    [ArticleCommentId] int NOT NULL,
     [Message] nvarchar(512) NOT NULL,
     [AuthorId] uniqueidentifier NOT NULL,
     [ArticleId] uniqueidentifier NULL,
@@ -111,7 +119,19 @@ CREATE TABLE [tingum].[ArticleTagMap] (
 );
 GO
 
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateCreated', N'DateModified', N'Description', N'IsActive', N'IsDeleted', N'Name') AND [object_id] = OBJECT_ID(N'[tingum].[AppUserRoles]'))
+    SET IDENTITY_INSERT [tingum].[AppUserRoles] ON;
+INSERT INTO [tingum].[AppUserRoles] ([Id], [DateCreated], [DateModified], [Description], [IsActive], [IsDeleted], [Name])
+VALUES ('05e1a51c-0344-4ec3-a7e9-6079d00e106f', '2024-01-03T14:44:19.0133411Z', '2024-01-03T14:44:19.0133412Z', N'Role with highest privileges.', CAST(0 AS bit), CAST(0 AS bit), N'Admin'),
+('97dc6924-e824-417b-9631-27637250d0f6', '2024-01-03T14:44:19.0133399Z', '2024-01-03T14:44:19.0133401Z', N'Default role for all onboarding users.', CAST(0 AS bit), CAST(0 AS bit), N'Standard');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateCreated', N'DateModified', N'Description', N'IsActive', N'IsDeleted', N'Name') AND [object_id] = OBJECT_ID(N'[tingum].[AppUserRoles]'))
+    SET IDENTITY_INSERT [tingum].[AppUserRoles] OFF;
+GO
+
 CREATE UNIQUE INDEX [IX_AppUsers_Email] ON [tingum].[AppUsers] ([Email]);
+GO
+
+CREATE INDEX [IX_AppUsers_RoleId] ON [tingum].[AppUsers] ([RoleId]);
 GO
 
 CREATE UNIQUE INDEX [IX_AppUsers_UserName] ON [tingum].[AppUsers] ([UserName]);
@@ -133,7 +153,7 @@ CREATE INDEX [IX_ArticleTagMap_TagsId] ON [tingum].[ArticleTagMap] ([TagsId]);
 GO
 
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-VALUES (N'20240103071730_MigrationAlpha', N'7.0.14');
+VALUES (N'20240103144419_MigrationAlpha', N'7.0.14');
 GO
 
 COMMIT;

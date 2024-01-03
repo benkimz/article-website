@@ -6,8 +6,6 @@ namespace Applantus.Tingum.Core.CoreCanvas.AppUsers;
 
 public class AppUser : BaseEntity
 {
-    public int AppUserId { get; set; }
-
     [Required]
     [MaxLength(255)]
     public override string Name { get; set; } = string.Empty;
@@ -17,7 +15,7 @@ public class AppUser : BaseEntity
     public string UserName { get; set; } = string.Empty;
 
     [MaxLength(255)]
-    public string? DisplayPhoto { get; set; } 
+    public string? DisplayPhoto { get; set; } = string.Empty; 
 
     [Required]
     [MaxLength(255)]
@@ -25,10 +23,10 @@ public class AppUser : BaseEntity
 
     [Required]
     [MaxLength(255)]
-    public string Password { get; set; } = string.Empty; 
+    public string Password { get; set; } = string.Empty;
 
     [MaxLength(1024)]
-    public string? Biography { get; set; } 
+    public string? Biography { get; set; } = string.Empty; 
 
-    public Role Role { get; set; } 
+    public UserRole? Role { get; set; } 
 }
