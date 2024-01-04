@@ -9,10 +9,11 @@
 <button onclick="@(() => AddU())">Test Method</button>
 
 @code{
-    private void AddU(){
+    private async void AddU(){
         Console.WriteLine("Button");
+        var u = await repo.CreateAsync(Name: "Benard Kimani", Email: "benkim3618@gmail.com", Password: "test-app");
         // var u = await repo.AddUser();
-        // Console.WriteLine(u);
+        Console.WriteLine(u);
     }
 }
 

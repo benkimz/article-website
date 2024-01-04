@@ -7,7 +7,7 @@ public interface IGenericRepository<T> where T : IEntity
     // crud: create, read, update, delete
     Task<T?> SaveAsync(T entity); 
 
-    Task<T?> LoadAsync(Guid id); 
+    Task<T?> LoadAsync(string id); 
 
     Task<List<T>?> LoadAllAsync(); 
 

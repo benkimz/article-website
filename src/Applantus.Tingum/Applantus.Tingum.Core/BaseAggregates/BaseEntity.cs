@@ -2,15 +2,15 @@
 
 public class BaseEntity : IEntity
 {
-    public Guid Id { get; set; } 
+    public Guid Id { get; set; }
 
-    public DateTime DateCreated { get; set; } 
+    public DateTime DateCreated { get; set; } = DateTime.UtcNow;
 
-    public DateTime DateModified { get; set; } 
+    public DateTime DateModified { get; set; } = DateTime.UtcNow; 
 
-    public bool IsActive { get; set; } 
+    public bool IsActive { get; set; } = true;
 
-    public bool IsDeleted { get; set; } 
+    public bool IsDeleted { get; set; } = false; 
 
     // ~ benkimz: virtual properties that can be overridden 
     public virtual string Name { get; set; } = string.Empty; 

@@ -5,7 +5,7 @@ namespace Applantus.Tingum.Core.Interfaces.ICoreCanvas.IAppUsers;
 
 public interface IAppUsersRepository  
 {
-    Task<AppUser?> CreateAsync(string Email, string Password, string? UserName, string? Name = null, string? DisplayPhoto = null, string? Biography = null, UserRole? Role = null);
+    Task<AppUser?> CreateAsync(string Email, string Password, string? UserName = null, string? Name = null, string? DisplayPhoto = null, string? Biography = null, UserRole? Role = null);
 
     Task<AppUser?> GetAsync(string id); 
 
