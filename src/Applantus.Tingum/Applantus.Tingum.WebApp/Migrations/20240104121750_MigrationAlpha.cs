@@ -26,8 +26,8 @@ namespace Applantus.Tingum.WebApp.Migrations
                     DateModified = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(512)", maxLength: 512, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -63,7 +63,7 @@ namespace Applantus.Tingum.WebApp.Migrations
                     DateModified = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Description = table.Column<string>(type: "nvarchar(512)", maxLength: 512, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -87,7 +87,7 @@ namespace Applantus.Tingum.WebApp.Migrations
                     DateModified = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Description = table.Column<string>(type: "nvarchar(512)", maxLength: 512, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -121,7 +121,7 @@ namespace Applantus.Tingum.WebApp.Migrations
                     DateModified = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -154,8 +154,8 @@ namespace Applantus.Tingum.WebApp.Migrations
                     DateModified = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(512)", maxLength: 512, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -208,8 +208,8 @@ namespace Applantus.Tingum.WebApp.Migrations
                 columns: new[] { "Id", "DateCreated", "DateModified", "Description", "IsActive", "IsDeleted", "Name" },
                 values: new object[,]
                 {
-                    { new Guid("05e1a51c-0344-4ec3-a7e9-6079d00e106f"), new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3411), new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3412), "Role with highest privileges.", false, false, "Admin" },
-                    { new Guid("97dc6924-e824-417b-9631-27637250d0f6"), new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3399), new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3401), "Default role for all onboarding users.", false, false, "Standard" }
+                    { new Guid("9e5691c1-c4fb-4d22-ac0d-6c2992f7b2f7"), new DateTime(2024, 1, 4, 12, 17, 50, 296, DateTimeKind.Utc).AddTicks(789), new DateTime(2024, 1, 4, 12, 17, 50, 296, DateTimeKind.Utc).AddTicks(790), "Default role for all onboarding users.", true, false, "Standard" },
+                    { new Guid("acc1c63b-0dc3-4adf-87d7-9494ad8ba7d3"), new DateTime(2024, 1, 4, 12, 17, 50, 296, DateTimeKind.Utc).AddTicks(795), new DateTime(2024, 1, 4, 12, 17, 50, 296, DateTimeKind.Utc).AddTicks(795), "Role with highest privileges.", true, false, "Admin" }
                 });
 
             migrationBuilder.CreateIndex(

@@ -1,0 +1,53 @@
+﻿@page "/signup"
+@page "/register"
+
+@using Applantus.Tingum.WebApp.BaseClasses.AccountPages.SignUpPage;
+
+@inherits SignUpPageBase
+
+<div class="signup-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 offset-lg-3">
+				<div class="ragister-account">
+					<h1 class="section-title title">Create an Account</h1>
+
+					@if(!string.IsNullOrEmpty(ErrorMessage) && !string.IsNullOrWhiteSpace(ErrorMessage)){
+						<div class="alert alert-danger" role="alert">
+							Error: @ErrorMessage
+						</div>
+					}
+
+					<form id="registation-form" name="registation-form" method="post">
+						<div class="form-group">
+							<label>Name</label>
+							<input type="text" name="name" class="form-control" @bind-value="Name" @bind-value:event="oninput" required="required">
+						</div>
+						<div class="form-group">
+							<label>User Name</label>
+							<input type="text" name="name" class="form-control" @bind-value="UserName" @bind-value:event="oninput" required="required">
+						</div>
+						<div class="form-group">
+							<label>Email</label>
+							<input type="email" name="email" class="form-control" @bind-value="Email" @bind-value:event="oninput" required="required">
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input type="password" name="password" class="form-control" @bind-value="Password" @bind-value:event="oninput" required="required">
+						</div>
+						<div class="form-group">
+							<label>Confirm Password</label>
+							<input type="password" name="password" class="form-control" @bind-value="ConfirmPassword" @bind-value:event="oninput" required="required">
+						</div>
+						<div class="checkbox">
+							<label class="pull-left" for="signing"><input type="checkbox" name="signing" id="signing" checked="@AgreeToTerms" onchange="@(() => ToggleAgreeToTerms())"> I agree to our Terms and Conditions </label>
+						</div>
+						<div class="submit-button text-center">
+							<button type="button" class="btn btn-primary" @onclick="RegisterUser">Register</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

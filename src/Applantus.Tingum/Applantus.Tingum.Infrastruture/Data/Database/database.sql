@@ -20,8 +20,8 @@ CREATE TABLE [tingum].[AppUserRoles] (
     [DateModified] datetime2 NOT NULL,
     [IsActive] bit NOT NULL,
     [IsDeleted] bit NOT NULL,
-    [Name] nvarchar(max) NOT NULL,
-    [Description] nvarchar(max) NOT NULL,
+    [Name] nvarchar(255) NOT NULL,
+    [Description] nvarchar(512) NOT NULL,
     CONSTRAINT [PK_AppUserRoles] PRIMARY KEY ([Id])
 );
 GO
@@ -45,7 +45,7 @@ CREATE TABLE [tingum].[ArticleTags] (
     [DateModified] datetime2 NOT NULL,
     [IsActive] bit NOT NULL,
     [IsDeleted] bit NOT NULL,
-    [Description] nvarchar(max) NOT NULL,
+    [Description] nvarchar(512) NOT NULL,
     CONSTRAINT [PK_ArticleTags] PRIMARY KEY ([Id])
 );
 GO
@@ -63,7 +63,7 @@ CREATE TABLE [tingum].[AppUsers] (
     [DateModified] datetime2 NOT NULL,
     [IsActive] bit NOT NULL,
     [IsDeleted] bit NOT NULL,
-    [Description] nvarchar(max) NOT NULL,
+    [Description] nvarchar(512) NOT NULL,
     CONSTRAINT [PK_AppUsers] PRIMARY KEY ([Id]),
     CONSTRAINT [FK_AppUsers_AppUserRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [tingum].[AppUserRoles] ([Id])
 );
@@ -86,7 +86,7 @@ CREATE TABLE [tingum].[Articles] (
     [DateModified] datetime2 NOT NULL,
     [IsActive] bit NOT NULL,
     [IsDeleted] bit NOT NULL,
-    [Name] nvarchar(max) NOT NULL,
+    [Name] nvarchar(255) NOT NULL,
     CONSTRAINT [PK_Articles] PRIMARY KEY ([Id]),
     CONSTRAINT [FK_Articles_AppUsers_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [tingum].[AppUsers] ([Id]) ON DELETE CASCADE,
     CONSTRAINT [FK_Articles_ArticleCategories_CategoryId] FOREIGN KEY ([CategoryId]) REFERENCES [tingum].[ArticleCategories] ([Id])
@@ -102,8 +102,8 @@ CREATE TABLE [tingum].[ArticleComments] (
     [DateModified] datetime2 NOT NULL,
     [IsActive] bit NOT NULL,
     [IsDeleted] bit NOT NULL,
-    [Name] nvarchar(max) NOT NULL,
-    [Description] nvarchar(max) NOT NULL,
+    [Name] nvarchar(255) NOT NULL,
+    [Description] nvarchar(512) NOT NULL,
     CONSTRAINT [PK_ArticleComments] PRIMARY KEY ([Id]),
     CONSTRAINT [FK_ArticleComments_AppUsers_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [tingum].[AppUsers] ([Id]) ON DELETE CASCADE,
     CONSTRAINT [FK_ArticleComments_Articles_ArticleId] FOREIGN KEY ([ArticleId]) REFERENCES [tingum].[Articles] ([Id])
@@ -122,8 +122,8 @@ GO
 IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateCreated', N'DateModified', N'Description', N'IsActive', N'IsDeleted', N'Name') AND [object_id] = OBJECT_ID(N'[tingum].[AppUserRoles]'))
     SET IDENTITY_INSERT [tingum].[AppUserRoles] ON;
 INSERT INTO [tingum].[AppUserRoles] ([Id], [DateCreated], [DateModified], [Description], [IsActive], [IsDeleted], [Name])
-VALUES ('05e1a51c-0344-4ec3-a7e9-6079d00e106f', '2024-01-03T14:44:19.0133411Z', '2024-01-03T14:44:19.0133412Z', N'Role with highest privileges.', CAST(0 AS bit), CAST(0 AS bit), N'Admin'),
-('97dc6924-e824-417b-9631-27637250d0f6', '2024-01-03T14:44:19.0133399Z', '2024-01-03T14:44:19.0133401Z', N'Default role for all onboarding users.', CAST(0 AS bit), CAST(0 AS bit), N'Standard');
+VALUES ('9e5691c1-c4fb-4d22-ac0d-6c2992f7b2f7', '2024-01-04T12:17:50.2960789Z', '2024-01-04T12:17:50.2960790Z', N'Default role for all onboarding users.', CAST(1 AS bit), CAST(0 AS bit), N'Standard'),
+('acc1c63b-0dc3-4adf-87d7-9494ad8ba7d3', '2024-01-04T12:17:50.2960795Z', '2024-01-04T12:17:50.2960795Z', N'Role with highest privileges.', CAST(1 AS bit), CAST(0 AS bit), N'Admin');
 IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateCreated', N'DateModified', N'Description', N'IsActive', N'IsDeleted', N'Name') AND [object_id] = OBJECT_ID(N'[tingum].[AppUserRoles]'))
     SET IDENTITY_INSERT [tingum].[AppUserRoles] OFF;
 GO
@@ -153,7 +153,7 @@ CREATE INDEX [IX_ArticleTagMap_TagsId] ON [tingum].[ArticleTagMap] ([TagsId]);
 GO
 
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-VALUES (N'20240103144419_MigrationAlpha', N'7.0.14');
+VALUES (N'20240104121750_MigrationAlpha', N'7.0.14');
 GO
 
 COMMIT;

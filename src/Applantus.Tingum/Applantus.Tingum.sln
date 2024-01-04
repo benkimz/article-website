@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applantus.Tingum.WebApp", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applantus.Tingum.Core", "Applantus.Tingum.Core\Applantus.Tingum.Core.csproj", "{B272AB7E-B33D-4B92-A519-E3514A06B9CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applantus.Tingum.Infrastruture", "Applantus.Tingum.Infrastruture\Applantus.Tingum.Infrastruture.csproj", "{17D662D9-EE0E-4A89-9C24-7F9D90B87812}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applantus.Tingum.Infrastruture", "Applantus.Tingum.Infrastruture\Applantus.Tingum.Infrastruture.csproj", "{17D662D9-EE0E-4A89-9C24-7F9D90B87812}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

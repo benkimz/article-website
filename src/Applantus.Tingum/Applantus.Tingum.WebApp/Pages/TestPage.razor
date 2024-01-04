@@ -1,23 +1,5 @@
 ﻿@page "/test"
-@using Applantus.Tingum.Core.Interfaces.ICoreCanvas.IAppUsers;
-
-@inject IAppUsersRepository repo
-
-<h1> Test Page: Mock Data: >> </h1>
-
-<button onclick="@(() => TestM())">Test Method</button>
-
-@code{
-    private string Val { get; set; } = string.Empty;
-
-    private async void TestM()
-    {
-        var u = await repo.CreateAsync(Name: "Tester Dev", Email: "testemail@server.com", Password:"tess-gatere");
-        Console.WriteLine(">>>>>>>>>>>>>>> see database");
-    }
-}
-
-@* 
+ 
 <style>
     #container {
         width: 1000px!important;
@@ -165,4 +147,4 @@
         'PasteFromOfficeEnhanced'
     ]
     });
-</script> *@
+</script>

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Applantus.Tingum.WebApp.Migrations
 {
     [DbContext(typeof(SystemDbContext))]
-    [Migration("20240103144419_MigrationAlpha")]
+    [Migration("20240104121750_MigrationAlpha")]
     partial class MigrationAlpha
     {
         /// <inheritdoc />
@@ -44,7 +44,8 @@ namespace Applantus.Tingum.WebApp.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(512)
+                        .HasColumnType("nvarchar(512)");
 
                     b.Property<string>("DisplayPhoto")
                         .HasMaxLength(255)
@@ -106,7 +107,8 @@ namespace Applantus.Tingum.WebApp.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(512)
+                        .HasColumnType("nvarchar(512)");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
@@ -116,7 +118,8 @@ namespace Applantus.Tingum.WebApp.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.HasKey("Id");
 
@@ -125,21 +128,21 @@ namespace Applantus.Tingum.WebApp.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("97dc6924-e824-417b-9631-27637250d0f6"),
-                            DateCreated = new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3399),
-                            DateModified = new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3401),
+                            Id = new Guid("9e5691c1-c4fb-4d22-ac0d-6c2992f7b2f7"),
+                            DateCreated = new DateTime(2024, 1, 4, 12, 17, 50, 296, DateTimeKind.Utc).AddTicks(789),
+                            DateModified = new DateTime(2024, 1, 4, 12, 17, 50, 296, DateTimeKind.Utc).AddTicks(790),
                             Description = "Default role for all onboarding users.",
-                            IsActive = false,
+                            IsActive = true,
                             IsDeleted = false,
                             Name = "Standard"
                         },
                         new
                         {
-                            Id = new Guid("05e1a51c-0344-4ec3-a7e9-6079d00e106f"),
-                            DateCreated = new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3411),
-                            DateModified = new DateTime(2024, 1, 3, 14, 44, 19, 13, DateTimeKind.Utc).AddTicks(3412),
+                            Id = new Guid("acc1c63b-0dc3-4adf-87d7-9494ad8ba7d3"),
+                            DateCreated = new DateTime(2024, 1, 4, 12, 17, 50, 296, DateTimeKind.Utc).AddTicks(795),
+                            DateModified = new DateTime(2024, 1, 4, 12, 17, 50, 296, DateTimeKind.Utc).AddTicks(795),
                             Description = "Role with highest privileges.",
-                            IsActive = false,
+                            IsActive = true,
                             IsDeleted = false,
                             Name = "Admin"
                         });
@@ -188,7 +191,8 @@ namespace Applantus.Tingum.WebApp.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -266,7 +270,8 @@ namespace Applantus.Tingum.WebApp.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(512)
+                        .HasColumnType("nvarchar(512)");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
@@ -281,7 +286,8 @@ namespace Applantus.Tingum.WebApp.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.HasKey("Id");
 
@@ -306,7 +312,8 @@ namespace Applantus.Tingum.WebApp.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(512)
+                        .HasColumnType("nvarchar(512)");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
