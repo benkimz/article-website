@@ -2,11 +2,7 @@
 
 namespace Applantus.Tingum.Core.Interfaces.ICoreCanvas.IAppUsers.IRoles;
 
-public interface IUserRolesRepository
+public interface IUserRolesRepository : IEntityRepository<UserRole>
 {
-    Task<UserRole?> CreateAsync(string name, string? description = null);
-
-    Task<UserRole?> GetAsync(string id); 
-
-    Task<List<UserRole>?> GetAllAsync(); 
+    Task<UserRole?> CreateAsync(string name, string? description = null); 
 }

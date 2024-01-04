@@ -1,19 +1,19 @@
 ﻿@page "/test"
+@using Applantus.Tingum.Core.Interfaces.ICoreCanvas.IAppUsers;
 
-@using Applantus.Tingum.Infrastruture.Data.Repositories.AppUsers;
+@inject IAppUsersRepository repo
 
-@inject AppUsersRepository repo
+<h1> Test Page: Mock Data: >> </h1>
 
-<h1>My Test Page</h1>
-
-<button onclick="@(() => AddU())">Test Method</button>
+<button onclick="@(() => TestM())">Test Method</button>
 
 @code{
-    private async void AddU(){
-        Console.WriteLine("Button");
-        var u = await repo.CreateAsync(Name: "Benard Kimani", Email: "benkim3618@gmail.com", Password: "test-app");
-        // var u = await repo.AddUser();
-        Console.WriteLine(u);
+    private string Val { get; set; } = string.Empty;
+
+    private async void TestM()
+    {
+        var u = await repo.CreateAsync(Name: "Tester Dev", Email: "testemail@server.com", Password:"tess-gatere");
+        Console.WriteLine(">>>>>>>>>>>>>>> see database");
     }
 }
 

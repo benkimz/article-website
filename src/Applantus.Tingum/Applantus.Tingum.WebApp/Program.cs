@@ -1,11 +1,12 @@
-using Applantus.Tingum.Core.CoreCanvas.AppUsers;
 using Applantus.Tingum.Core.Interfaces;
 using Applantus.Tingum.Core.Interfaces.ICoreCanvas.IAppUsers;
 using Applantus.Tingum.Core.Interfaces.ICoreCanvas.IAppUsers.IRoles;
+using Applantus.Tingum.Core.Services;
 using Applantus.Tingum.Infrastruture.Data;
 using Applantus.Tingum.Infrastruture.Data.Repositories;
 using Applantus.Tingum.Infrastruture.Data.Repositories.AppUsers;
 using Applantus.Tingum.Infrastruture.Data.Repositories.AppUsers.Roles;
+using Applantus.Tingum.Infrastruture.Services;
 using Applantus.Tingum.Infrastruture.Services.Passwords;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,7 +26,6 @@ builder.Services.AddTransient<IPasswordHashing, PasswordHashing>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddTransient<IAppUsersRepository, AppUsersRepository>();
 builder.Services.AddTransient<IUserRolesRepository, UserRolesRepository>();
-builder.Services.AddTransient<AppUsersRepository>();
 
 var app = builder.Build();
 

@@ -24,7 +24,7 @@ public class AppUsersRepository : IAppUsersRepository
 
     public async Task<AppUser?> CreateAsync(string Email, string Password, string? UserName = null, string? Name = null, string? DisplayPhoto = null, string? Biography = null, UserRole? Role = null)
     {
-        var roles = await _userRolesRepository.GetAllAsync();
+        var defaultRole = _userRolesRepository.GetQueryable().FirstOrDefault(r => r.Name.ToLower() == "standard"); 
         return await _userRepository.SaveAsync(new AppUser
         {
             Email = Email,
@@ -33,7 +33,7 @@ public class AppUsersRepository : IAppUsersRepository
             Name = Name ?? string.Empty,
             DisplayPhoto = DisplayPhoto ?? string.Empty,
             Biography = Biography ?? string.Empty,
-            Role = Role ?? roles?.FirstOrDefault(r => r.Name.ToLower() == "standard")
+            Role = Role ?? defaultRole
         }); 
     }
 
@@ -45,6 +45,11 @@ public class AppUsersRepository : IAppUsersRepository
     public async Task<AppUser?> GetAsync(string id)
     {
         return await _userRepository.LoadAsync(id);
+    }
+
+    public IQueryable<AppUser> GetQueryable()
+    {
+        return _userRepository.GetQueryable();
     }
 
     public Task<AppUser?> ModifyAsync(AppUser user)

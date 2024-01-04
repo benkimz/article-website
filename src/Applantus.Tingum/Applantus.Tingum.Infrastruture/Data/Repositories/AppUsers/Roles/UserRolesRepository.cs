@@ -31,4 +31,19 @@ public class UserRolesRepository : IUserRolesRepository
     {
         return _rolesRepository.LoadAsync(id);
     }
+
+    public IQueryable<UserRole> GetQueryable()
+    {
+        return _rolesRepository.GetQueryable();
+    }
+
+    public Task<UserRole?> ModifyAsync(UserRole entity)
+    {
+        return _rolesRepository.AlterAsync(entity);
+    }
+
+    public Task<UserRole?> RemoveAsync(UserRole entity)
+    {
+        return _rolesRepository.RemoveAsync(entity);
+    }
 }
