@@ -1,11 +1,10 @@
 ﻿using Applantus.Tingum.Core.Interfaces.ICoreCanvas.IAppUsers;
 using Applantus.Tingum.WebApp.Services;
 using Microsoft.AspNetCore.Components;
-using System.Text.RegularExpressions;
 
 namespace Applantus.Tingum.WebApp.BaseClasses.AccountPages.SignUpPage
 {
-    public class SignUpPageBase : ComponentBase
+	public class SignUpPageBase : ComponentBase
     {
         // ~ inject services
         [Inject]

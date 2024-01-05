@@ -1,0 +1,29 @@
+﻿@page "/mails"
+@using Applantus.Tingum.Core.Services;
+
+@inject IEmailSender mail
+
+<h3>SendGridTest</h3>
+<form>
+    From:
+    <input type="email" name="from_email" /><br /><br />
+    To: 
+    <input type="email" name="to_email" /> <br /><br />
+    Subject:
+    <input type="text" /><br /><br />
+    Body:
+    <textarea rows="10" cols="20"></textarea> <br /><br />
+    <button type="button" onclick="@(() => SendEmail())">Send Email</button>
+</form>
+
+@code {
+    private string FromEmail { get; set; } = string.Empty; 
+    private string TargetEmail { get; set; } = string.Empty; 
+    private string Subject { get; set; } = string.Empty; 
+    private string Body { get; set; } = string.Empty; 
+
+    private async void SendEmail()
+    {
+        await mail.SendAsync(fromEmail: FromEmail, toEmail: TargetEmail, subject: Subject, htmlBody: Body); 
+    }
+}
