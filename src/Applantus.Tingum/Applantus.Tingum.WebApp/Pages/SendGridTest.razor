@@ -1,5 +1,6 @@
 ﻿@page "/mails"
 @using Applantus.Tingum.Core.Services;
+@using Applantus.Tingum.Core.Services.EmailService.Models;
 
 @inject IEmailSender mail
 
@@ -24,6 +25,28 @@
 
     private async void SendEmail()
     {
-        await mail.SendAsync(fromEmail: FromEmail, toEmail: TargetEmail, subject: Subject, htmlBody: Body); 
+        MailerResponse r = await mail.SendSimpleAsync(
+            from: new EmailEntity("auth@beamtm.com", "Authentication Servive"),
+            to: new List<EmailEntity>
+            {
+                new EmailEntity("benkim3619@gmail.com", "Benard Kimani ~ benkimz"), 
+                new EmailEntity("contactbeamtm@gmail.com", "Beamtm Gmail Contact"), 
+            },
+            cc: new List<EmailEntity>
+            {
+                new EmailEntity("nancynjeri592@gmail.com", "Manash Nanje")
+            }, 
+            subject: "Final System Test: benkimz", 
+            body: "<h2>Greeting from me! How are you?"
+    );
+
+        if (r.IsSuccess)
+        {
+            Console.WriteLine("***************** MAILS SENT ****************");
+        }
+        else
+        {
+            Console.WriteLine($"ERRORR {r.Message}");
+        }
     }
 }
